@@ -1,4 +1,3 @@
-// lib/widgets/medicine_card.dart
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
@@ -15,13 +14,13 @@ class MedicineCard extends StatelessWidget {
     required this.medicine,
     required this.onDelete,
     required this.onEdit,
-    required this.onTap, // NUEVO PARA DETALLE
+    required this.onTap,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: onTap, // NUEVO: ABRIR DETALLE
+      onTap: onTap,
       child: Container(
         margin: const EdgeInsets.only(bottom: 16),
         child: Slidable(
