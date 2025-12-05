@@ -1,4 +1,3 @@
-// lib/services/notification_service.dart
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
@@ -100,7 +99,7 @@ class NotificationService {
     }
   }
 
-  // NOMBRE DEL DÍA
+  // NOMBRE DEL Dia
   static String _dayName(int weekday) {
     const days = [
       'Lunes',

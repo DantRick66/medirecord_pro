@@ -1,4 +1,3 @@
-// lib/models/medicine.dart
 import 'package:flutter/material.dart';
 
 class Medicine {

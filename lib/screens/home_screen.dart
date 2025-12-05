@@ -1,9 +1,8 @@
-// lib/screens/home_screen.dart
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import '../database/database_helper.dart';
-import '../services/notification_service.dart'; // ← ESTA LÍNEA FALTABA
+import '../services/notification_service.dart';
 import '../models/medicine.dart';
 import '../widgets/medicine_card.dart';
 import 'add_edit_medicine_screen.dart';
