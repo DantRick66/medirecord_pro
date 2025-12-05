@@ -1,0 +1,29 @@
+name: medirecord_pro
+description: App profesional de recordatorio de medicamentos con SQLite (PC + Móvil)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.2
+  path: ^1.9.0
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+  intl: ^0.19.0
+  google_fonts: ^6.2.1
+  flutter_staggered_animations: ^1.1.1
+  flutter_slidable: ^3.0.1
+  uuid: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
